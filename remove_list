@@ -1,0 +1,18 @@
+def remove():
+  l3.pop()
+
+l3 = ['teclado', 'monitor', 'mouse', 'memoria', 'processador', 'fonte', 'fone', 'led']
+print(l3)
+print('Quantos itens deseja remover da lista? ')
+a=0
+q = abs(int(input(' ')))
+while q > len(l3):
+  print('Indice maior que a lista!')
+  q = abs(int(input(' ')))
+  
+while a < q:
+  remove()
+  a+=1
+print(l3)
+if l3 == []:
+  print('A lista ficou vazia')
