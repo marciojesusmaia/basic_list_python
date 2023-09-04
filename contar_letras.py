@@ -1,3 +1,11 @@
+'''
+Neste exemplo temos uma lista com o nome de algumas linguagems de programação.
+A função indice verifica se o indice escolhido contem na lista.
+Caso seja escolhido um indice dentro do range da lista será contado a quantidade de letras daquela palavra escolhida.
+Tambem é verificado se foi digitado algo diferente de numeros.
+'''
+
+
 l1=['C','PYTHON','GO LANG','PHP','JAVA','C++','C#','COBOL','JAVA SCRIPIT']
 print(l1)
 def indice():
