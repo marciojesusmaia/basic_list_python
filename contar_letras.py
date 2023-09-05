@@ -6,20 +6,20 @@ Tambem é verificado se foi digitado algo diferente de numeros.
 '''
 
 
-l1=['C','PYTHON','GO LANG','PHP','JAVA','C++','C#','COBOL','JAVA SCRIPIT']
-print(l1)
+linguagens=['C','PYTHON','GO LANG','PHP','JAVA','C++','C#','COBOL','JAVA SCRIPIT']
+print(linguagens)
 def indice():
-  a = int(input('who the index of list? '))
+  indice = int(input('Qual o indice você escolhe? '))
     
-  while a > 8:  
-    l1.index == a
+  while indice > 8:  
+    linguagens.index == indice
     print('index error')
-    a=int(input('Qual o indice você escolhe? '))
+    indice=int(input('Qual o indice você escolhe? '))
 
-  if a < 9:
-    b = ''.join(l1[a].split())
-    print(l1[a])
-    print('O indice escolhido tem ', len(b),'letras')
+  if indice < 9:
+    contagem = ''.join(linguagens[indice].split())
+    print(linguagens[indice])
+    print('O indice escolhido tem ', len(contagem),'letras')
 
 try:
   indice()
