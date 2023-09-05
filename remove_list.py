@@ -1,3 +1,9 @@
+'''
+Para remover um item uma lista usamos o metodo `pop`.
+por padrão ele retira o ultimo item que pertence a lista.
+Nesse pequeno exemplo é retirado a quantidade de itens desejado.
+'''
+
 def remove():
   l.pop()
 
