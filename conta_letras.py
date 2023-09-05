@@ -4,6 +4,6 @@ Logo abaixo, usando o metodo `join` e `split` juntamos tudo e retiramos os espa√
 Em seguida com o metodo `len` contamos quantas letras possuem na palavra ou frase digitada
 '''
 
-c = input('Digite uma palavra/frase para saber quantas letras tem: ')
-c = ''.join(c.split())
-print('Sua palavra/frase tem ',len(c),' letras.')
+palavra = input('Digite uma palavra/frase para saber quantas letras tem: ')
+palavra = ''.join(palavra.split())
+print('Sua palavra/frase tem ',len(palavra),' letras.')
